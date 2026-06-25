@@ -1,0 +1,96 @@
+{
+  "profile": {
+    "name": "Muhammad Ulil Albab",
+    "role": "Electronics Technician",
+    "photo": "assets/images/profile.jpg",
+    "location": "Untang, Kab. Semarang",
+    "gender": "Laki-laki",
+    "status": "Belum Menikah",
+    "citizenship": "Indonesia",
+    "phone": "+62 821-3436-9968",
+    "whatsapp": "6282134364968",
+    "email": "[email protected]",
+    "instagram": "https://www.instagram.com/muhammad.al_10?igsh=N2YxcmR0N2trNWJw",
+    "languages": ["Indonesia", "Inggris"],
+    "cv_file": "assets/docs/CV-Muhammad-Ulil-Albab.pdf",
+    "about": "Saya seorang lulusan Teknik Elektronika dari Politeknik Negeri Semarang. Saya memiliki fokus kuat pada perawatan dan perbaikan peralatan elektronika, dengan pemahaman yang baik tentang pemrograman elektronika dasar dan sistem kontrol. Saya juga memahami dasar Keselamatan dan Kesehatan Kerja (K3) serta berpengalaman dalam troubleshooting dan perbaikan instalasi listrik rumah tangga."
+  },
+  "education": [
+    {
+      "id": "edu-1",
+      "school": "SMK Roudlotul Mubtadiin",
+      "period": "2020 - 2023",
+      "summary": "Jurusan Teknik Audio Video (TAV)",
+      "detail": "Selama menempuh pendidikan di SMK Roudlotul Mubtadiin, saya mempelajari dasar-dasar elektronika, sistem audio dan video, serta pengukuran kelistrikan. Saya mendapatkan pengalaman langsung dalam instalasi, perawatan, dan perbaikan perangkat elektronik. Saya juga mengembangkan keterampilan dalam pemrograman Arduino, desain dan simulasi IoT menggunakan Proteus, serta pemahaman tentang Keselamatan dan Kesehatan Kerja (K3)."
+    },
+    {
+      "id": "edu-2",
+      "school": "Politeknik Negeri Semarang",
+      "period": "2023 - 2026",
+      "summary": "Jurusan Teknik Elektronika",
+      "detail": "Selama menempuh pendidikan di Politeknik Negeri Semarang, saya mempelajari dasar-dasar elektronika, sistem PLC, serta sistem kontrol. Saya mendapatkan pengalaman langsung dalam PLC, perawatan, dan perbaikan perangkat elektronik. Saya juga mengembangkan keterampilan dalam pemrograman Arduino, desain dan simulasi IoT menggunakan Proteus, serta pemahaman tentang Keselamatan dan Kesehatan Kerja (K3)."
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "CV Berkah Teknik",
+      "role": "Electronics Technician",
+      "summary": "Perbaikan dinamo dan perangkat elektronik rumah tangga",
+      "image": "assets/images/exp-berkah-teknik.jpg",
+      "detail": "Sebagai Electronics Technician, saya berkolaborasi dengan berbagai klien sebagai bagian dari tim untuk memperbaiki dinamo dan motor elektronik rumah tangga di sebuah playzone. Tanggung jawab saya meliputi perawatan dan layanan perbaikan untuk bisnis kecil maupun perorangan."
+    },
+    {
+      "id": "exp-2",
+      "company": "CV Sarana Cipta Media",
+      "role": "Research and Development",
+      "summary": "Riset dan pengembangan sistem, 2025",
+      "image": "assets/images/exp-sarana-cipta-media.jpg",
+      "detail": "Di divisi Research and Development, saya berkolaborasi dengan berbagai klien sebagai bagian dari tim untuk memberikan inovasi dan mengembangkan sistem."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Sistem Pemberian Makan Ikan Otomatis Berbasis ESP8266",
+      "period": "Pengendalian Jarak Jauh",
+      "summary": "Pakan otomatis dengan kontrol jarak jauh berbasis ESP8266",
+      "image": "assets/images/project-1.jpg",
+      "detail": "Alat ini mengatur setting waktu pakan dan mengatur banyak pakan per waktu pada program Arduino IDE. Ketika setting waktu pakan terpenuhi, motor servo akan aktif dan memberi pakan sesuai jumlah yang sudah ditentukan. Bersamaan dengan itu, alarm akan berbunyi sebagai penanda bahwa pakan sudah diberikan."
+    },
+    {
+      "id": "proj-2",
+      "title": "Tone Control Digital",
+      "period": "Rangkaian Elektronika",
+      "summary": "Pengaturan karakteristik suara audio secara digital",
+      "image": "assets/images/project-2.jpg",
+      "detail": "Tone Control Digital adalah proyek rangkaian elektronika yang digunakan untuk mengatur karakteristik suara audio secara digital."
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "title": "Perawatan & Perbaikan Perangkat Elektronik Rumah Tangga",
+      "icon": "tool",
+      "detail": "Mampu mendiagnosis kerusakan, melakukan perawatan rutin, dan memperbaiki berbagai perangkat elektronik rumah tangga, termasuk motor dan dinamo, dengan pendekatan troubleshooting yang sistematis."
+    },
+    {
+      "id": "skill-2",
+      "title": "Perbaikan Peralatan Audio",
+      "icon": "speaker",
+      "detail": "Berpengalaman menangani perangkat audio video, mulai dari pengukuran sinyal, identifikasi komponen rusak, hingga penggantian dan kalibrasi ulang agar perangkat berfungsi optimal."
+    },
+    {
+      "id": "skill-3",
+      "title": "Pemrograman Elektronika (Arduino & IoT)",
+      "icon": "cpu",
+      "detail": "Memiliki dasar pemrograman Arduino dan desain sistem IoT, termasuk simulasi rangkaian menggunakan Proteus sebelum implementasi pada perangkat keras."
+    },
+    {
+      "id": "skill-4",
+      "title": "Proteus & CodeVision Software",
+      "icon": "code",
+      "detail": "Terbiasa menggunakan Proteus untuk simulasi rangkaian elektronik dan CodeVision AVR untuk pemrograman mikrokontroler dalam proyek-proyek elektronika."
+    }
+  ]
+}

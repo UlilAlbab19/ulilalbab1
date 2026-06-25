@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Ulil Albab — Electronics Technician</title>
+<meta name="description" content="Portofolio Muhammad Ulil Albab, Electronics Technician — perawatan, perbaikan, dan pemrograman elektronika.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="logo">M<span>.</span>ALBAB</div>
+    <nav class="nav-links">
+      <a href="#about">Tentang</a>
+      <a href="#education">Pendidikan</a>
+      <a href="#experience">Pengalaman</a>
+      <a href="#projects">Project</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+    <a class="nav-cv" id="cvLink" href="assets/docs/CV-Muhammad-Ulil-Albab.pdf" download>UNDUH CV</a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Electronics Technician — Audio Video Engineering</p>
+        <h1 class="hero-name">Muhammad Ulil <span class="accent">Albab</span></h1>
+        <p class="hero-role">// repair · maintenance · embedded programming</p>
+        <p class="hero-desc" id="heroDesc">Memuat...</p>
+        <div class="hero-actions">
+          <a href="#skills" class="btn btn-primary">Lihat Keahlian</a>
+          <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="scope-frame">
+        <div class="scope-label"><span><span class="dot">●</span> CH-1 LIVE</span><span id="scopeLoc">—</span></div>
+        <div class="photo-holder" id="photoHolder">
+          <span class="initials">MA</span>
+        </div>
+        <svg class="scope-wave" viewBox="0 0 200 34" preserveAspectRatio="none">
+          <polyline points="0,17 15,17 22,4 30,30 38,17 60,17 68,8 76,26 84,17 110,17 118,4 126,30 134,17 160,17 168,8 176,26 184,17 200,17"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <p class="eyebrow">Tentang</p>
+        <h2>Profil Singkat</h2>
+        <p id="aboutText">Memuat...</p>
+      </div>
+      <div>
+        <p class="eyebrow">Data Diri</p>
+        <h2 style="margin-bottom:20px;">Personal Data</h2>
+        <dl class="data-table" id="dataTable"></dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Pendidikan</p>
+        <h2>Riwayat Pendidikan</h2>
+        <p>Klik kartu untuk melihat detail pembelajaran.</p>
+      </div>
+      <div id="educationList" class="card-grid" style="grid-template-columns:1fr;"></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Pengalaman</p>
+        <h2>Pengalaman Kerja</h2>
+        <p>Klik kartu untuk melihat detail tanggung jawab.</p>
+      </div>
+      <div id="experienceList" class="card-grid" style="grid-template-columns:1fr;"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Project</p>
+        <h2>Project &amp; Dokumentasi Kerja</h2>
+        <p>Klik foto/kartu untuk melihat cerita lengkap project.</p>
+      </div>
+      <div id="projectsList" class="card-grid"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Keahlian</p>
+        <h2>Skills &amp; Tools</h2>
+        <p>Klik salah satu untuk melihat detail kemampuan.</p>
+      </div>
+      <div id="skillsList" class="card-grid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Kontak</p>
+        <h2>Mari Terhubung</h2>
+        <p>Tersedia untuk pekerjaan teknisi elektronik, perbaikan audio, maupun proyek embedded.</p>
+      </div>
+      <div class="contact-grid" id="contactGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="year"></span> Muhammad Ulil Albab — Dibangun dengan HTML, CSS &amp; JavaScript.</div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+    <img id="modalImg" class="modal-img" alt="" style="display:none;">
+    <p class="eyebrow" id="modalEyebrow">Detail</p>
+    <h3 id="modalTitle"></h3>
+    <p id="modalBody"></p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
